@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
   s.tvos.deployment_target = '9.0'
 
   s.source       = { :git => "https://github.com/minibardelivery/facebook-ios-sdk.git",
-                     :tag => "sdk-version-5.9.1"
+                     :tag => "5.9.1"
                     }
 
   s.ios.weak_frameworks = 'Accounts', 'CoreLocation', 'Social', 'Security', 'QuartzCore', 'CoreGraphics', 'UIKit', 'Foundation', 'AudioToolbox'
