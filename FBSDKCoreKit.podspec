@@ -3,7 +3,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "FBSDKCoreKit"
-  s.version      = "4.9.1"
+  s.version      = "5.9.1"
   s.summary      = "Official Facebook SDK for iOS to access Facebook Platform's core features"
 
   s.description  = <<-DESC
@@ -21,8 +21,8 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '7.0'
   s.tvos.deployment_target = '9.0'
 
-  s.source       = { :git => "https://github.com/facebook/facebook-ios-sdk.git",
-                     :tag => "sdk-version-4.9.1"
+  s.source       = { :git => "https://github.com/minibardelivery/facebook-ios-sdk.git",
+                     :tag => "sdk-version-5.9.1"
                     }
 
   s.ios.weak_frameworks = 'Accounts', 'CoreLocation', 'Social', 'Security', 'QuartzCore', 'CoreGraphics', 'UIKit', 'Foundation', 'AudioToolbox'
